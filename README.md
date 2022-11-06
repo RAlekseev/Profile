@@ -1,4 +1,4 @@
-# resources
+# profile
 
 ## Project setup
 ```
