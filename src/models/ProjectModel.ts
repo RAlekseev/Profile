@@ -1,4 +1,4 @@
-import TechnologyVersion from "@/models/TechnologyVersionModel";
+import TechnologyVersion from '@/models/TechnologyVersionModel'
 
 export default interface Project {
   id: string;
