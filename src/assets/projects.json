@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lms",
+    "name": "LearnMS",
+    "description": "Система управления образовательным процессом",
+    "image": "img/projects/lms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "medms",
+    "name": "MedMS",
+    "description": "Система управления медицинской организацией",
+    "image": "img/projects/medms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "imgproc",
+    "name": "ImgProc",
+    "description": "Система обработки изображений пользователей",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "rentms",
+    "name": "RentMS",
+    "description": "Система управления арендой помещений",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "webparser",
+    "name": "WebParser",
+    "description": "Парсер web-сайтов настраиваемый пользователями",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "dramka",
+    "name": "Dramka",
+    "description": "Карточная, сценарная Web игра",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "universalbot",
+    "name": "UniversalBot",
+    "description": "Бот для Vk.com для различных целей",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  },
+  {
+    "id": "profile",
+    "name": "Profile",
+    "description": "Моя личная Web страница",
+    "image": "img/projects/learnms.png",
+    "url": "https://lms.example.com",
+    "github": "https://lms.example.com/static/images/logo.png",
+    "technologies": [
+      {
+        "id": "php",
+        "version": "7.2"
+      },
+      {
+        "id": "laravel",
+        "version": "5.7"
+      }
+    ]
+  }
+]

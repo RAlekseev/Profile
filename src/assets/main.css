@@ -1,0 +1,114 @@
+@import url("@/assets/css/fonts.css");
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: rgb(234, 229, 9);
+    background: linear-gradient(130deg, rgba(234, 229, 9, 1) 0%, rgba(184, 180, 8, 1) 100%);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 12%;
+}
+
+#app {
+    margin-top: 84px;
+    font-family: Roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+nav {
+    padding: 12px;
+}
+
+nav a {
+    margin: 0 0.75rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+nav a.router-link-exact-active {
+    font-weight: 900;
+    color: #000;
+}
+
+header {
+    padding-left: 7%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+header img {
+    margin-right: 140px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+footer {
+    padding: 0 10%;
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    /*padding: 0 1em;*/
+}
+
+footer p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        padding: 0 6%;
+    }
+
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    html {
+        font-size: 12px;
+    }
+
+    main {
+        padding: 0 4%;
+        font-size: 12px;
+    }
+
+    header {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    header img {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 12px 0;
+    }
+}

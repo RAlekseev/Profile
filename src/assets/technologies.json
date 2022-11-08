@@ -1,0 +1,16 @@
+[
+  {
+    "id": "php",
+    "name": "PHP",
+    "image": "https://s3.amazonaws.com/stackshareio/stacks/php.png",
+    "description": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. PHP is now installed on more than 244 million websites and 2.1 million web servers. PHP is free. Free to download and free to use. PHP is a recursive acronym for \"PHP: Hypertext Preprocessor\".",
+    "url": "https://stackshare.io/php"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "image": "https://s3.amazonaws.com/stackshareio/stacks/laravel.png",
+    "description": "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.",
+    "url": "https://stackshare.io/laravel"
+  }
+]
