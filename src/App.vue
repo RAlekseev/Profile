@@ -10,9 +10,7 @@
         <router-link to="/my_way">Мой путь</router-link>
       </nav>
     </header>
-    <main>
-      <router-view/>
-    </main>
+    <router-view/>
     <footer>
       <p>© 2022 with ♥</p>
     </footer>

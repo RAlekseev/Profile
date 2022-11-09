@@ -41,7 +41,7 @@ export default defineComponent({
 })
 </script>
 
-<style>
+<style scoped>
 h3 {
   font-size: 1.7em;
   margin: 0;

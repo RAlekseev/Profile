@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <main>
     <MainComponent/>
     <Projects/>
-  </div>
+  </main>
 </template>
 
 <script lang="ts">

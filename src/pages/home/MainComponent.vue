@@ -74,7 +74,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px;
 }
 
 .photo img {

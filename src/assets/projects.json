@@ -6,6 +6,59 @@
     "image": "img/projects/lms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/learnms/admin_academic_calendar.webp", "alt":""},
+      {"src": "projects/learnms/admin_admission_tests.webp", "alt":""},
+      {"src": "projects/learnms/admin_admisssion.webp", "alt":""},
+      {"src": "projects/learnms/admin_classroom_schedule.webp", "alt":""},
+      {"src": "projects/learnms/admin_course.webp", "alt":""},
+      {"src": "projects/learnms/admin_course_teachers.webp", "alt":""},
+      {"src": "projects/learnms/admin_courses.webp", "alt":""},
+      {"src": "projects/learnms/admin_feedback_by_teacher.webp", "alt":""},
+      {"src": "projects/learnms/admin_group.webp", "alt":""},
+      {"src": "projects/learnms/admin_groups.webp", "alt":""},
+      {"src": "projects/learnms/admin_home.webp", "alt":""},
+      {"src": "projects/learnms/admin_inspection_create.webp", "alt":""},
+      {"src": "projects/learnms/admin_inspector_timesheet.webp", "alt":""},
+      {"src": "projects/learnms/admin_inventory.webp", "alt":""},
+      {"src": "projects/learnms/admin_notifications.webp", "alt":""},
+      {"src": "projects/learnms/admin_notifications_create.webp", "alt":""},
+      {"src": "projects/learnms/admin_orders.webp", "alt":""},
+      {"src": "projects/learnms/admin_orders_users.webp", "alt":""},
+      {"src": "projects/learnms/admin_permissions.webp", "alt":""},
+      {"src": "projects/learnms/admin_poll_rating.webp", "alt":""},
+      {"src": "projects/learnms/admin_poll_table_question_result.webp", "alt":""},
+      {"src": "projects/learnms/admin_polls_template.webp", "alt":""},
+      {"src": "projects/learnms/admin_rating_charts.webp", "alt":""},
+      {"src": "projects/learnms/admin_rating_groups_compare.webp", "alt":""},
+      {"src": "projects/learnms/admin_rating_stat.webp", "alt":""},
+      {"src": "projects/learnms/admin_ratings.webp", "alt":""},
+      {"src": "projects/learnms/admin_schedule.webp", "alt":""},
+      {"src": "projects/learnms/admin_schedule_create_auto.webp", "alt":""},
+      {"src": "projects/learnms/admin_schedule_cross.webp", "alt":""},
+      {"src": "projects/learnms/admin_schedule_excel_export.webp", "alt":""},
+      {"src": "projects/learnms/admin_schedule_full.webp", "alt":""},
+      {"src": "projects/learnms/admin_specialties.webp", "alt":""},
+      {"src": "projects/learnms/admin_specialty_syllabus.webp", "alt":""},
+      {"src": "projects/learnms/admin_student_profile.webp", "alt":""},
+      {"src": "projects/learnms/admin_teacher_distribution_by_month.webp", "alt":""},
+      {"src": "projects/learnms/admin_teacher_inspection.webp", "alt":""},
+      {"src": "projects/learnms/admin_teachers.webp", "alt":""},
+      {"src": "projects/learnms/admin_test_result.webp", "alt":""},
+      {"src": "projects/learnms/admin_user_logs.webp", "alt":""},
+      {"src": "projects/learnms/admission.webp", "alt":""},
+      {"src": "projects/learnms/course_group_grades_export.webp", "alt":""},
+      {"src": "projects/learnms/db.webp", "alt":""},
+      {"src": "projects/learnms/grade_by_course.webp", "alt":""},
+      {"src": "projects/learnms/presence_journal.webp", "alt":""},
+      {"src": "projects/learnms/sttudent_courses.webp", "alt":""},
+      {"src": "projects/learnms/stud_profile.webp", "alt":""},
+      {"src": "projects/learnms/student_course.webp", "alt":""},
+      {"src": "projects/learnms/teacher_course.webp", "alt":""},
+      {"src": "projects/learnms/teacher_grade_table.webp", "alt":""},
+      {"src": "projects/learnms/teacher_groups.webp", "alt":""},
+      {"src": "projects/learnms/users_schedule.webp", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
@@ -24,6 +77,36 @@
     "image": "img/projects/medms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/medms/admin_department_edit.webp", "alt":""},
+      {"src": "projects/medms/admin_document_template_edit.webp", "alt":""},
+      {"src": "projects/medms/admin_document_templates.webp", "alt":""},
+      {"src": "projects/medms/admin_edit_color_scheme.webp", "alt":""},
+      {"src": "projects/medms/admin_employee_schedule.webp", "alt":""},
+      {"src": "projects/medms/admin_icons.webp", "alt":""},
+      {"src": "projects/medms/admin_inventory.webp", "alt":""},
+      {"src": "projects/medms/admin_inventory_income_form.webp", "alt":""},
+      {"src": "projects/medms/admin_inventory_invoices.webp", "alt":""},
+      {"src": "projects/medms/admin_inventory_movements.webp", "alt":""},
+      {"src": "projects/medms/admin_order.webp", "alt":""},
+      {"src": "projects/medms/admin_patient_orders.webp", "alt":""},
+      {"src": "projects/medms/admin_service_categories.webp", "alt":""},
+      {"src": "projects/medms/admin_service_edit.webp", "alt":""},
+      {"src": "projects/medms/admin_services.webp", "alt":""},
+      {"src": "projects/medms/admin_settings.webp", "alt":""},
+      {"src": "projects/medms/admin_users.webp", "alt":""},
+      {"src": "projects/medms/db.webp", "alt":""},
+      {"src": "projects/medms/doctor_create_invoice_inentory.webp", "alt":""},
+      {"src": "projects/medms/doctor_inventory_invoices.webp", "alt":""},
+      {"src": "projects/medms/email_order_template.webp", "alt":""},
+      {"src": "projects/medms/front-end_scheme.webp", "alt":""},
+      {"src": "projects/medms/home.webp", "alt":""},
+      {"src": "projects/medms/patient_busket.webp", "alt":""},
+      {"src": "projects/medms/patient_live_search.webp", "alt":""},
+      {"src": "projects/medms/patient_services.webp", "alt":""},
+      {"src": "projects/medms/user_orders.webp", "alt":""},
+      {"src": "projects/medms/user_profile.webp", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
@@ -37,11 +120,38 @@
   },
   {
     "id": "imgproc",
-    "name": "ImgProc",
+    "name": "ImgProcess",
     "description": "Система обработки изображений пользователей",
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/imgproc/lab_1.webp", "alt":""},
+      {"src": "projects/imgproc/lab_1_1.webp", "alt":""},
+      {"src": "projects/imgproc/lab_1_3.webp", "alt":""},
+      {"src": "projects/imgproc/lab_8.webp", "alt":""},
+      {"src": "projects/imgproc/res_1_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_1_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_1_3.webp", "alt":""},
+      {"src": "projects/imgproc/res_1_4.webp", "alt":""},
+      {"src": "projects/imgproc/res_2_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_2_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_3_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_3_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_3_3.webp", "alt":""},
+      {"src": "projects/imgproc/res_4.webp", "alt":""},
+      {"src": "projects/imgproc/res_5_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_5_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_5_3.webp", "alt":""},
+      {"src": "projects/imgproc/res_6_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_6_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_6_3.webp", "alt":""},
+      {"src": "projects/imgproc/res_7_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_7_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_8_1.webp", "alt":""},
+      {"src": "projects/imgproc/res_8_2.webp", "alt":""},
+      {"src": "projects/imgproc/res_9.webp", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
@@ -60,6 +170,7 @@
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [],
     "technologies": [
       {
         "id": "php",
@@ -78,6 +189,11 @@
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/parser/parserCreate.webp", "alt":""},
+      {"src": "projects/parser/resultPage.webp", "alt":""},
+      {"src": "projects/parser/resultsTable.webp", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
@@ -96,6 +212,12 @@
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/dramka/home.webp", "alt":""},
+      {"src": "projects/dramka/instruction.webp", "alt":""},
+      {"src": "projects/dramka/characters.webp", "alt":""},
+      {"src": "projects/dramka/gameplay.webp", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
@@ -114,6 +236,7 @@
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [],
     "technologies": [
       {
         "id": "php",
@@ -132,6 +255,9 @@
     "image": "img/projects/learnms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
+    "images": [
+      {"src": "projects/profile/profile.png", "alt":""}
+    ],
     "technologies": [
       {
         "id": "php",
