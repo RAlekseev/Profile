@@ -4,7 +4,7 @@
       <img :src="getImgUrl(project.image)" alt="project image">
     </div>
     <div class="card__content">
-      <h3 class="card__title">{{ project.name }}</h3>
+      <h3 class="card__title">{{ project.id }}</h3>
       <p class="card__description">{{ project.description }}</p>
       <div class="card__tags">
         <!--        <span v-for="tag in project.tags" :key="tag" class="card__tag">{{tag}}</span>-->

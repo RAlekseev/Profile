@@ -2,7 +2,7 @@
   <div>
   <div class="card">
     <div class="card__title">
-      <h3>{{ project.name }}</h3>
+      <h3>{{ project.id }}</h3>
       <p class="card__description">
         {{ project.description }}
       </p>

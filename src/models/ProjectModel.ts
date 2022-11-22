@@ -7,5 +7,6 @@ export default interface Project {
   image: string;
   url: string;
   github: string;
+  component: string|null;
   technologies: Array<TechnologyVersion>;
 }
