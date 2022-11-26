@@ -9,7 +9,7 @@
 import { defineComponent } from 'vue'
 import { mapGetters } from 'vuex'
 import Project from '@/models/ProjectModel'
-import ProjectFullCard from '../index/ProjectFullCard.vue'
+import ProjectFullCard from './ProjectFullCard.vue'
 import LearnMS from './project_components/LearnMS.vue'
 
 export default defineComponent({

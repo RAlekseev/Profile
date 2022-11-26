@@ -214,12 +214,34 @@
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "php",
+        "version": "7.2",
+        "icon": "/img/technologies/php.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "laravel",
+        "version": "5.7",
+        "icon": "/img/technologies/laravel.svg"
+      },
+      {
+        "name": "mysql",
+        "version": "5.7",
+        "icon": "/img/technologies/mysql.svg"
+      },
+      {
+        "name": "nginx",
+        "version": "1.14",
+        "icon": "/img/technologies/nginx.svg"
+      },
+      {
+        "name": "docker",
+        "version": "3",
+        "icon": "/img/technologies/docker.svg"
+      },
+      {
+        "name": "VueJs",
+        "version": "2.5",
+        "icon": "/img/technologies/vuejs.svg"
       }
     ]
   },

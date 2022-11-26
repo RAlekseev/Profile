@@ -1,4 +1,5 @@
 export default interface TechnologyVersion {
-  id: string,
+  name: string,
   version: string;
+  icon: string;
 }

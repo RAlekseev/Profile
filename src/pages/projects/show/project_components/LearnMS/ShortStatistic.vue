@@ -52,7 +52,7 @@ export default {
             value: 5815
           },
           {
-            name: 'Посещаеемостей',
+            name: 'Посещаемостей',
             value: 493191
           },
           {
@@ -96,17 +96,21 @@ export default {
 .wrapper {
   margin: 30px 0;
   display: flex;
+  /*display: inline;*/
   justify-content: center;
   align-items: center;
+  clear: both;
 }
 
 .statistic-card {
+  float: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  margin: 0 20px;
+  width: 32%;
+  /*height: 400px;*/
+  margin: 20px;
   border: 1px solid #000;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
@@ -133,6 +137,7 @@ export default {
   font-weight: 500;
   text-align: center;
   color: #000;
+  height: 48px;
 }
 
 .statistic-card__value {
@@ -141,6 +146,31 @@ export default {
   text-align: center;
   color: #000;
   padding-left: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .statistic-card {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .statistic-card {
+    margin: 10px;
+  }
+
+  .statistic-card__name {
+    font-size: 14px;
+  }
+
+  .statistic-card__value {
+    font-size: 18px;
+  }
 }
 
 table {
