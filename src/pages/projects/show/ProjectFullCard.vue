@@ -116,6 +116,9 @@ button {
     display: block;
     height: 100%;
   }
+  .card__img img {
+    height: 300px;
+  }
 }
 
 img {

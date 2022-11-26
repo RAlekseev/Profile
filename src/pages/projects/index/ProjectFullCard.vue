@@ -90,6 +90,17 @@ img {
   object-position: 50% 50%;
 }
 
+@media screen and (max-width: 700px) {
+  .card {
+    display: block;
+    height: 100%;
+  }
+
+  img {
+    height: 300px;
+  }
+}
+
 .card__title {
   text-align: center;
   padding: 20px;
