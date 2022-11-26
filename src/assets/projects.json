@@ -498,25 +498,6 @@
     ]
   },
   {
-    "id": "RentMS",
-    "description": "Система управления арендой помещений",
-    "image": "img/projects/learnms.png",
-    "url": "https://lms.example.com",
-    "component": null,
-    "github": "https://lms.example.com/static/images/logo.png",
-    "images": [],
-    "technologies": [
-      {
-        "id": "php",
-        "version": "7.2"
-      },
-      {
-        "id": "laravel",
-        "version": "5.7"
-      }
-    ]
-  },
-  {
     "id": "WebParser",
     "description": "Парсер web-сайтов настраиваемый пользователями",
     "image": "img/projects/learnms.png",
