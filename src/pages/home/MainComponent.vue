@@ -11,7 +11,7 @@
       </blockquote>
     </div>
     <div class="photo">
-      <img src="@/assets/img/avatar.webp" alt="photo">
+      <img src="/img/avatar.webp" alt="photo">
     </div>
   </div>
 </template>
@@ -74,7 +74,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px;
 }
 
 .photo img {

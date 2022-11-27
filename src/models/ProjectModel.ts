@@ -8,4 +8,8 @@ export default interface Project {
   url: string;
   github: string;
   technologies: Array<TechnologyVersion>;
+  features: Array<Object>|null,
+  statistic_cards: Array<Object>|null,
+  full_description: string|null,
+  materials: Array<Object>|null,
 }

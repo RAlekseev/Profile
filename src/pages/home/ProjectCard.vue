@@ -1,10 +1,10 @@
 <template>
-  <div class="card">
+  <div class="card" @click.prevent="toProject()">
     <div class="card__image">
-      <img :src="getImgUrl(project.image)" alt="project image">
+      <img :src="project.image" alt="project image">
     </div>
     <div class="card__content">
-      <h3 class="card__title">{{ project.name }}</h3>
+      <h3 class="card__title">{{ project.id }}</h3>
       <p class="card__description">{{ project.description }}</p>
       <div class="card__tags">
         <!--        <span v-for="tag in project.tags" :key="tag" class="card__tag">{{tag}}</span>-->
@@ -34,14 +34,14 @@ export default defineComponent({
     }
   },
   methods: {
-    getImgUrl (pic: string) {
-      return require('../../assets/' + pic)
+    toProject () {
+      this.$router.push({ name: 'projects_show', params: { id: this.project.id } })
     }
   }
 })
 </script>
 
-<style>
+<style scoped>
 h3 {
   font-size: 1.7em;
   margin: 0;
@@ -53,6 +53,7 @@ h3 {
 }
 
 .card {
+  cursor: pointer;
   font-size: 16px;
   display: inline-flex;
   flex-direction: column;

@@ -42,7 +42,7 @@ export default defineComponent({
     window.removeEventListener('resize', this.updateWidth)
   },
   methods: {
-    updateWidth (e: Event) :void {
+    updateWidth () :void {
       this.width = window.innerWidth
     }
   },

@@ -1,7 +1,6 @@
 import { createStore } from 'vuex'
 import Project from '@/models/ProjectModel'
 import Technology from '@/models/TechnologyModel'
-import TechnologyVersion from '@/models/TechnologyVersionModel'
 
 export default createStore({
   state: {
