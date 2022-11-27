@@ -22,9 +22,9 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "my_way" */ '@/pages/my_way/MyWayIndex.vue')
   },
   {
-    path: "/:catchAll(.*)",
+    path: '/:catchAll(.*)',
     name: 'not_found',
-    component: () => import('@/pages/NotFound.vue'),
+    component: () => import('@/pages/NotFound.vue')
   }
 ]
 

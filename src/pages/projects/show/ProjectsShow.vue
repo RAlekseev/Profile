@@ -21,7 +21,7 @@ export default defineComponent({
   computed: {
     ...mapGetters({ projects: 'projects' }),
     project (): Project|null {
-      return this.projects.find((project: any) => project.id === this.$route.params.id)
+      return this.projects.find((project: Project) => project.id === this.$route.params.id)
     }
   }
 })
