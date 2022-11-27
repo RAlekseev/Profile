@@ -11,7 +11,7 @@
       </blockquote>
     </div>
     <div class="photo">
-      <img src="@/assets/img/avatar.webp" alt="photo">
+      <img src="/img/avatar.webp" alt="photo">
     </div>
   </div>
 </template>

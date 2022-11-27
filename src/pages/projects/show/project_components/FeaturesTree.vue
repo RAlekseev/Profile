@@ -29,7 +29,7 @@ export default {
   data: () => ({
     treeConfig: {
       nodeWidth: 120, nodeHeight: 80, levelHeight: 200
-    },
+    }
   })
 }
 </script>

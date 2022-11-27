@@ -17,8 +17,8 @@ import Project from '@/models/ProjectModel'
 import ProjectFullCard from './ProjectFullCard.vue'
 import FeaturesTree from './project_components/FeaturesTree.vue'
 import ShortStatistic from './project_components/ShortStatistic.vue'
-import Description from './project_components/Description.vue'
-import Materials from './project_components/Materials.vue'
+import Description from './project_components/DescriptionCard.vue'
+import Materials from './project_components/MaterialsList.vue'
 import DemoTable from './project_components/DemoTable.vue'
 
 export default defineComponent({

@@ -3,7 +3,7 @@
     <header>
       <nav>
         <a>
-          <img src="@/assets/img/avatar.webp" alt="logo">
+          <img src="/img/avatar.webp" alt="logo">
         </a>
         <router-link to="/">Главная</router-link>
         <router-link to="/projects">Проекты</router-link>

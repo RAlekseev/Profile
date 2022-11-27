@@ -19,7 +19,7 @@
       <div class="card__img">
         <Carousel :autoplay="3000" :wrap-around="true" :transition="1000">
           <Slide v-for="image in project.images" :key="image.src">
-            <img :src="getImgUrl(image.src)" :alt="image.alt">
+            <img :src="'/img/' + image.src" :alt="image.alt" loading="lazy">
           </Slide>
           <template #addons>
             <Navigation/>
@@ -50,12 +50,12 @@ export default defineComponent({
     Slide,
     Navigation,
     Pagination
-  },
-  methods: {
-    getImgUrl (pic: string) {
-      return require('@/assets/img/' + pic)
-    }
   }
+  // methods: {
+  //   getImgUrl (pic: string) {
+  //     return require('@/assets/img/' + pic)
+  //   }
+  // }
 })
 </script>
 
@@ -115,14 +115,14 @@ img {
 .icons {
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .icon{
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin: 5px;
 }
 

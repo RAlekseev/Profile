@@ -4,7 +4,7 @@
       <h2>Материалы</h2>
     </div>
     <div class="cards">
-      <div v-for="material in materials" class="card card-1">
+      <div v-for="(material, i) in materials" class="card card-1" :key="i">
         <h2 class="card__title">{{ material.name }}</h2>
         <p class="card__apply">
           <a class="card__link" :href="material.link" target="_blank">
@@ -100,12 +100,16 @@ export default {
 /*  background: radial-gradient(#fbc1cc, #fa99b2);*/
 /*}*/
 
-.card-1 {
-  background: radial-gradient(#76b2fe, #b69efe);
-}
+/*.card-1 {*/
+/*  background: radial-gradient(#76b2fe, #b69efe);*/
+/*}*/
 
-.card-4 {
-  background: radial-gradient(#60efbc, #58d5c9);
+/*.card-1 {*/
+/*  background: radial-gradient(#60efbc, #58d5c9);*/
+/*}*/
+
+.card-1 {
+  background: radial-gradient(#07e095, #0fb7a9);
 }
 
 .card-5 {

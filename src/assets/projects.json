@@ -1,213 +1,213 @@
 [
   {
     "id": "LearnMS",
-    "description": "Система управления образовательным процессом",
-    "image": "img/projects/lms.png",
+    "description": "Автоматизированная система управления образовательным процессом",
+    "image": "/img/projects/lms.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/learnms/admin_academic_calendar.webp",
+        "src": "projects/LearnMS/admin_academic_calendar.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_admission_tests.webp",
+        "src": "projects/LearnMS/admin_admission_tests.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_admisssion.webp",
+        "src": "projects/LearnMS/admin_admisssion.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_classroom_schedule.webp",
+        "src": "projects/LearnMS/admin_classroom_schedule.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_course.webp",
+        "src": "projects/LearnMS/admin_course.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_course_teachers.webp",
+        "src": "projects/LearnMS/admin_course_teachers.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_courses.webp",
+        "src": "projects/LearnMS/admin_courses.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_feedback_by_teacher.webp",
+        "src": "projects/LearnMS/admin_feedback_by_teacher.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_group.webp",
+        "src": "projects/LearnMS/admin_group.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_groups.webp",
+        "src": "projects/LearnMS/admin_groups.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_home.webp",
+        "src": "projects/LearnMS/admin_home.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_inspection_create.webp",
+        "src": "projects/LearnMS/admin_inspection_create.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_inspector_timesheet.webp",
+        "src": "projects/LearnMS/admin_inspector_timesheet.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_inventory.webp",
+        "src": "projects/LearnMS/admin_inventory.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_notifications.webp",
+        "src": "projects/LearnMS/admin_notifications.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_notifications_create.webp",
+        "src": "projects/LearnMS/admin_notifications_create.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_orders.webp",
+        "src": "projects/LearnMS/admin_orders.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_orders_users.webp",
+        "src": "projects/LearnMS/admin_orders_users.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_permissions.webp",
+        "src": "projects/LearnMS/admin_permissions.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_poll_rating.webp",
+        "src": "projects/LearnMS/admin_poll_rating.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_poll_table_question_result.webp",
+        "src": "projects/LearnMS/admin_poll_table_question_result.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_polls_template.webp",
+        "src": "projects/LearnMS/admin_polls_template.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_rating_charts.webp",
+        "src": "projects/LearnMS/admin_rating_charts.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_rating_groups_compare.webp",
+        "src": "projects/LearnMS/admin_rating_groups_compare.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_rating_stat.webp",
+        "src": "projects/LearnMS/admin_rating_stat.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_ratings.webp",
+        "src": "projects/LearnMS/admin_ratings.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_schedule.webp",
+        "src": "projects/LearnMS/admin_schedule.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_schedule_create_auto.webp",
+        "src": "projects/LearnMS/admin_schedule_create_auto.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_schedule_cross.webp",
+        "src": "projects/LearnMS/admin_schedule_cross.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_schedule_excel_export.webp",
+        "src": "projects/LearnMS/admin_schedule_excel_export.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_schedule_full.webp",
+        "src": "projects/LearnMS/admin_schedule_full.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_specialties.webp",
+        "src": "projects/LearnMS/admin_specialties.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_specialty_syllabus.webp",
+        "src": "projects/LearnMS/admin_specialty_syllabus.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_student_profile.webp",
+        "src": "projects/LearnMS/admin_student_profile.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_teacher_distribution_by_month.webp",
+        "src": "projects/LearnMS/admin_teacher_distribution_by_month.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_teacher_inspection.webp",
+        "src": "projects/LearnMS/admin_teacher_inspection.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_teachers.webp",
+        "src": "projects/LearnMS/admin_teachers.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_test_result.webp",
+        "src": "projects/LearnMS/admin_test_result.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admin_user_logs.webp",
+        "src": "projects/LearnMS/admin_user_logs.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/admission.webp",
+        "src": "projects/LearnMS/admission.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/course_group_grades_export.webp",
+        "src": "projects/LearnMS/course_group_grades_export.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/db.webp",
+        "src": "projects/LearnMS/db.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/grade_by_course.webp",
+        "src": "projects/LearnMS/grade_by_course.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/presence_journal.webp",
+        "src": "projects/LearnMS/presence_journal.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/sttudent_courses.webp",
+        "src": "projects/LearnMS/sttudent_courses.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/stud_profile.webp",
+        "src": "projects/LearnMS/stud_profile.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/student_course.webp",
+        "src": "projects/LearnMS/student_course.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/teacher_course.webp",
+        "src": "projects/LearnMS/teacher_course.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/teacher_grade_table.webp",
+        "src": "projects/LearnMS/teacher_grade_table.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/teacher_groups.webp",
+        "src": "projects/LearnMS/teacher_groups.webp",
         "alt": ""
       },
       {
-        "src": "projects/learnms/users_schedule.webp",
+        "src": "projects/LearnMS/users_schedule.webp",
         "alt": ""
       }
     ],
@@ -241,6 +241,26 @@
         "name": "VueJs",
         "version": "2.5",
         "icon": "/img/technologies/vuejs.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "version": "4.0",
+        "icon": "/img/technologies/bootstrap.svg"
+      },
+      {
+        "name": "HTML",
+        "version": "5",
+        "icon": "/img/technologies/html.svg"
+      },
+      {
+        "name": "CSS",
+        "version": "3",
+        "icon": "/img/technologies/css.svg"
+      },
+      {
+        "name": "Axios",
+        "version": "1.0",
+        "icon": "/img/technologies/axios.svg"
       }
     ],
     "features": {
@@ -551,126 +571,158 @@
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/medms/admin_department_edit.webp",
+        "src": "projects/MedMS/admin_department_edit.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_document_template_edit.webp",
+        "src": "projects/MedMS/admin_document_template_edit.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_document_templates.webp",
+        "src": "projects/MedMS/admin_document_templates.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_edit_color_scheme.webp",
+        "src": "projects/MedMS/admin_edit_color_scheme.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_employee_schedule.webp",
+        "src": "projects/MedMS/admin_employee_schedule.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_icons.webp",
+        "src": "projects/MedMS/admin_icons.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_inventory.webp",
+        "src": "projects/MedMS/admin_inventory.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_inventory_income_form.webp",
+        "src": "projects/MedMS/admin_inventory_income_form.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_inventory_invoices.webp",
+        "src": "projects/MedMS/admin_inventory_invoices.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_inventory_movements.webp",
+        "src": "projects/MedMS/admin_inventory_movements.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_order.webp",
+        "src": "projects/MedMS/admin_order.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_patient_orders.webp",
+        "src": "projects/MedMS/admin_patient_orders.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_service_categories.webp",
+        "src": "projects/MedMS/admin_service_categories.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_service_edit.webp",
+        "src": "projects/MedMS/admin_service_edit.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_services.webp",
+        "src": "projects/MedMS/admin_services.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_settings.webp",
+        "src": "projects/MedMS/admin_settings.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/admin_users.webp",
+        "src": "projects/MedMS/admin_users.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/db.webp",
+        "src": "projects/MedMS/db.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/doctor_create_invoice_inentory.webp",
+        "src": "projects/MedMS/doctor_create_invoice_inentory.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/doctor_inventory_invoices.webp",
+        "src": "projects/MedMS/doctor_inventory_invoices.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/email_order_template.webp",
+        "src": "projects/MedMS/email_order_template.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/front-end_scheme.webp",
+        "src": "projects/MedMS/front-end_scheme.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/home.webp",
+        "src": "projects/MedMS/home.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/patient_busket.webp",
+        "src": "projects/MedMS/patient_busket.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/patient_live_search.webp",
+        "src": "projects/MedMS/patient_live_search.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/patient_services.webp",
+        "src": "projects/MedMS/patient_services.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/user_orders.webp",
+        "src": "projects/MedMS/user_orders.webp",
         "alt": ""
       },
       {
-        "src": "projects/medms/user_profile.webp",
+        "src": "projects/MedMS/user_profile.webp",
         "alt": ""
       }
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "VueJs",
+        "version": "2.5",
+        "icon": "/img/technologies/vuejs.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "Axios",
+        "version": "0.18",
+        "icon": "/img/technologies/axios.svg"
+      },
+      {
+        "name": "NPM",
+        "version": "6.4",
+        "icon": "/img/technologies/npm.svg"
+      },
+      {
+        "name": "php",
+        "version": "8.1",
+        "icon": "/img/technologies/php.svg"
+      },
+      {
+        "name": "laravel",
+        "version": "8.75",
+        "icon": "/img/technologies/laravel.svg"
+      },
+      {
+        "name": "mysql",
+        "version": "5.7",
+        "icon": "/img/technologies/mysql.svg"
+      },
+      {
+        "name": "nginx",
+        "version": "1.14",
+        "icon": "/img/technologies/nginx.svg"
+      },
+      {
+        "name": "docker",
+        "version": "3",
+        "icon": "/img/technologies/docker.svg"
       }
     ],
     "features": {
@@ -865,226 +917,339 @@
   {
     "id": "ImgProcess",
     "description": "Система обработки изображений пользователей",
-    "image": "img/projects/learnms.png",
+    "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/imgproc/lab_1.webp",
+        "src": "projects/ImgProcess/lab_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/lab_1_1.webp",
+        "src": "projects/ImgProcess/lab_1_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/lab_1_3.webp",
+        "src": "projects/ImgProcess/lab_1_3.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/lab_8.webp",
+        "src": "projects/ImgProcess/lab_8.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_1_1.webp",
+        "src": "projects/ImgProcess/res_1_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_1_2.webp",
+        "src": "projects/ImgProcess/res_1_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_1_3.webp",
+        "src": "projects/ImgProcess/res_1_3.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_1_4.webp",
+        "src": "projects/ImgProcess/res_1_4.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_2_1.webp",
+        "src": "projects/ImgProcess/res_2_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_2_2.webp",
+        "src": "projects/ImgProcess/res_2_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_3_1.webp",
+        "src": "projects/ImgProcess/res_3_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_3_2.webp",
+        "src": "projects/ImgProcess/res_3_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_3_3.webp",
+        "src": "projects/ImgProcess/res_3_3.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_4.webp",
+        "src": "projects/ImgProcess/res_4.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_5_1.webp",
+        "src": "projects/ImgProcess/res_5_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_5_2.webp",
+        "src": "projects/ImgProcess/res_5_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_5_3.webp",
+        "src": "projects/ImgProcess/res_5_3.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_6_1.webp",
+        "src": "projects/ImgProcess/res_6_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_6_2.webp",
+        "src": "projects/ImgProcess/res_6_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_6_3.webp",
+        "src": "projects/ImgProcess/res_6_3.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_7_1.webp",
+        "src": "projects/ImgProcess/res_7_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_7_2.webp",
+        "src": "projects/ImgProcess/res_7_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_8_1.webp",
+        "src": "projects/ImgProcess/res_8_1.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_8_2.webp",
+        "src": "projects/ImgProcess/res_8_2.webp",
         "alt": ""
       },
       {
-        "src": "projects/imgproc/res_9.webp",
+        "src": "projects/ImgProcess/res_9.webp",
         "alt": ""
       }
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "Python",
+        "version": "3.1",
+        "icon": "/img/technologies/python.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "Django",
+        "version": "3.1",
+        "icon": "/img/technologies/django.svg"
+      },
+      {
+        "name": "Python Image Library",
+        "version": "3.1",
+        "icon": "/img/technologies/pillow.webp"
+      },
+      {
+        "name": "SQLite",
+        "version": "3.0",
+        "icon": "/img/technologies/sqlite.svg"
+      },
+      {
+        "name": "PIP (PyPl)",
+        "version": "3.1",
+        "icon": "/img/technologies/PyPI.svg"
+      },
+      {
+        "name": "Matplotlib",
+        "version": "3.1",
+        "icon": "/img/technologies/matplotlib.svg"
       }
     ]
   },
   {
     "id": "WebParser",
     "description": "Парсер web-сайтов настраиваемый пользователями",
-    "image": "img/projects/learnms.png",
+    "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/parser/parserCreate.webp",
+        "src": "projects/WebParser/parserCreate.webp",
         "alt": ""
       },
       {
-        "src": "projects/parser/resultPage.webp",
+        "src": "projects/WebParser/resultPage.webp",
         "alt": ""
       },
       {
-        "src": "projects/parser/resultsTable.webp",
+        "src": "projects/WebParser/resultsTable.webp",
         "alt": ""
       }
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "VueJs",
+        "version": "2.5",
+        "icon": "/img/technologies/vuejs.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "Axios",
+        "version": "0.18",
+        "icon": "/img/technologies/axios.svg"
+      },
+      {
+        "name": "NPM",
+        "version": "6.4",
+        "icon": "/img/technologies/npm.svg"
+      },
+      {
+        "name": "php",
+        "version": "8.1",
+        "icon": "/img/technologies/php.svg"
+      },
+      {
+        "name": "laravel",
+        "version": "8.75",
+        "icon": "/img/technologies/laravel.svg"
+      },
+      {
+        "name": "mysql",
+        "version": "5.7",
+        "icon": "/img/technologies/mysql.svg"
+      },
+      {
+        "name": "nginx",
+        "version": "1.14",
+        "icon": "/img/technologies/nginx.svg"
+      },
+      {
+        "name": "docker",
+        "version": "3",
+        "icon": "/img/technologies/docker.svg"
       }
     ]
   },
   {
     "id": "Dramka",
     "description": "Карточная, сценарная Web игра",
-    "image": "img/projects/learnms.png",
+    "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/dramka/home.webp",
+        "src": "projects/Dramka/home.webp",
         "alt": ""
       },
       {
-        "src": "projects/dramka/instruction.webp",
+        "src": "projects/Dramka/instruction.webp",
         "alt": ""
       },
       {
-        "src": "projects/dramka/characters.webp",
+        "src": "projects/Dramka/characters.webp",
         "alt": ""
       },
       {
-        "src": "projects/dramka/gameplay.webp",
+        "src": "projects/Dramka/gameplay.webp",
         "alt": ""
       }
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "VueJs",
+        "version": "2.5",
+        "icon": "/img/technologies/vuejs.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "NPM",
+        "version": "6.4",
+        "icon": "/img/technologies/npm.svg"
       }
     ]
   },
   {
     "id": "UniversalBot",
     "description": "Бот для Vk.com для различных целей",
-    "image": "img/projects/learnms.png",
+    "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
-    "images": [],
-    "technologies": [
+    "images": [
       {
-        "id": "php",
-        "version": "7.2"
+        "src": "projects/UniversalBot/logo.webp",
+        "alt": "Bot profile image"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "src": "projects/UniversalBot/find.webp",
+        "alt": "Bot profile image"
+      },
+      {
+        "src": "projects/UniversalBot/help.webp",
+        "alt": "Bot profile image"
+      },
+      {
+        "src": "projects/UniversalBot/read.webp",
+        "alt": "Bot profile image"
+      },
+      {
+        "src": "projects/UniversalBot/read_translate.webp",
+        "alt": "Bot profile image"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Python",
+        "version": "3.1",
+        "icon": "/img/technologies/python.svg"
+      },
+      {
+        "name": "Flask",
+        "version": "3.1",
+        "icon": "/img/technologies/flask.svg"
+      },
+      {
+        "name": "VK API",
+        "version": "3.1",
+        "icon": "/img/technologies/vk.svg"
+      },
+      {
+        "name": "PyTesseract",
+        "version": "3.1",
+        "icon": "/img/technologies/tesseract.png"
       }
     ]
   },
   {
     "id": "Profile",
     "description": "Моя личная Web страница",
-    "image": "img/projects/learnms.png",
+    "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
     "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
-        "src": "projects/profile/profile.png",
-        "alt": ""
+        "src": "projects/Profile/profile.webp",
+        "alt": "Home page"
+      },
+      {
+        "src": "projects/Profile/my_way.webp",
+        "alt": "My way page"
+      },
+      {
+        "src": "projects/Profile/projects.webp",
+        "alt": "Projects page"
+      },
+      {
+        "src": "projects/Profile/LearnMS.webp",
+        "alt": "LearnMS Statistic and features"
       }
     ],
     "technologies": [
       {
-        "id": "php",
-        "version": "7.2"
+        "name": "VueJs",
+        "version": "3.2",
+        "icon": "/img/technologies/vuejs.svg"
       },
       {
-        "id": "laravel",
-        "version": "5.7"
+        "name": "NPM",
+        "version": "9.1",
+        "icon": "/img/technologies/npm.svg"
+      },
+      {
+        "name": "TypeScript",
+        "version": "4.5",
+        "icon": "/img/technologies/typescript.svg"
+      },
+      {
+        "name": "ESLint",
+        "version": "7.32",
+        "icon": "/img/technologies/eslint.svg"
       }
     ]
   }

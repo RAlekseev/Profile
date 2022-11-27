@@ -1,7 +1,7 @@
 <template>
-  <div class="card">
+  <div class="card" @click.prevent="toProject()">
     <div class="card__image">
-      <img :src="getImgUrl(project.image)" alt="project image">
+      <img :src="project.image" alt="project image">
     </div>
     <div class="card__content">
       <h3 class="card__title">{{ project.id }}</h3>
@@ -34,8 +34,8 @@ export default defineComponent({
     }
   },
   methods: {
-    getImgUrl (pic: string) {
-      return require('../../assets/' + pic)
+    toProject () {
+      this.$router.push({ name: 'projects_show', params: { id: this.project.id } })
     }
   }
 })
@@ -53,6 +53,7 @@ h3 {
 }
 
 .card {
+  cursor: pointer;
   font-size: 16px;
   display: inline-flex;
   flex-direction: column;
