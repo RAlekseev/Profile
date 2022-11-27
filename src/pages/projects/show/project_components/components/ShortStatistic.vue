@@ -19,76 +19,12 @@
 <script>
 export default {
   name: 'ShortStatistic',
-  data: () => ({
-    cards: [
-      {
-        title: 'Организации',
-        icon: '/img/app_icons/bank.svg',
-        statistic: [
-          {
-            name: 'Количество Пользователей',
-            value: 5578
-          },
-          {
-            name: 'Количество Групп',
-            value: 339
-          },
-          {
-            name: 'Успешных аккредитаций',
-            value: 12
-          },
-          {
-            name: 'Организаций подключено',
-            value: 3
-          }
-        ]
-      },
-      {
-        title: 'Расписание',
-        icon: '/img/app_icons/book-opened.svg',
-        statistic: [
-          {
-            name: 'Ячеек рассписания',
-            value: 5815
-          },
-          {
-            name: 'Посещаемостей',
-            value: 493191
-          },
-          {
-            name: 'Домашних работ',
-            value: 7622
-          },
-          {
-            name: 'Учебных материалов',
-            value: 4816
-          }
-        ]
-      },
-      {
-        title: 'Учебные потоки',
-        icon: '/img/app_icons/presentation.svg',
-        statistic: [
-          {
-            name: 'Банк вопросов',
-            value: 48172
-          },
-          {
-            name: 'Тестов пройдено',
-            value: 91314
-          },
-          {
-            name: 'Оценок выставлено',
-            value: 39276
-          },
-          {
-            name: 'Учебных потоков',
-            value: 204
-          }
-        ]
-      }
-    ]
-  })
+  props: {
+    cards: {
+      type: Array,
+      required: true
+    }
+  }
 }
 </script>
 
