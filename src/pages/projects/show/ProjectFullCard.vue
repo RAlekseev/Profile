@@ -7,39 +7,14 @@
           {{ project.description }}
         </p>
         <div class="icons">
-          <img v-for="technology in project.technologies" :key="technology.name" :src="technology.icon" :alt="technology.name" class="icon">
+          <img v-for="technology in project.technologies"
+               :key="technology.name"
+               :src="technology.icon"
+               :alt="technology.name"
+               :title="technology.name + ' ' + technology.version"
+               class="icon">
         </div>
-        <div class="demo">
-          <a href="https://learnms.ru" target="_blank">
-            LearnMS.ru
-          </a>
-          <table>
-            <thead>
-            <tr>
-              <th>Пользователь</th>
-              <th>Логин</th>
-              <th>Пароль</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>Администратор</td>
-              <td>ar001</td>
-              <td>demo</td>
-            </tr>
-            <tr>
-              <td>Преподаватель</td>
-              <td>tk001</td>
-              <td>demo</td>
-            </tr>
-            <tr>
-              <td>Студент</td>
-              <td>st001</td>
-              <td>demo</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
+        <slot></slot>
       </div>
       <div class="card__img">
         <Carousel :autoplay="3000" :wrap-around="true" :transition="1000">
@@ -137,16 +112,6 @@ img {
   overflow: hidden;
 }
 
-.demo {
-  margin-top: 20px;
-}
-
-.demo a {
-  color: #5e126b;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .icons {
   justify-content: center;
   align-items: center;
@@ -161,31 +126,6 @@ img {
   margin: 5px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-table td, table th {
-  border: 1px solid black;
-}
-
-table tr:first-child th {
-  border-top: 0;
-}
-
-table tr:last-child td {
-  border-bottom: 0;
-}
-
-table tr td:first-child,
-table tr th:first-child {
-  border-left: 0;
-}
-
-table tr td:last-child,
-table tr th:last-child {
-  border-right: 0;
-}
 .carousel__pagination {
   position: relative;
   top: -20px;

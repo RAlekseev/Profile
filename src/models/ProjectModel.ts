@@ -7,6 +7,9 @@ export default interface Project {
   image: string;
   url: string;
   github: string;
-  component: string|null;
   technologies: Array<TechnologyVersion>;
+  features: Array<Object>|null,
+  statistic_cards: Array<Object>|null,
+  full_description: string|null,
+  materials: Array<Object>|null,
 }
