@@ -561,7 +561,28 @@
         "link": "/materials/LearnMS/LearnMS Диплом_Презентация.pdf",
         "type": "Презентация"
       }
-    ]
+    ],
+    "demo": {
+      "name": "LearnMS.ru",
+      "url": "https://LearnMS.ru",
+      "accounts": [
+        {
+          "name": "Администратор",
+          "login": "admin",
+          "password": "demo"
+        },
+        {
+          "name": "Студент",
+          "login": "student",
+          "password": "demo"
+        },
+        {
+          "name": "Преподаватель",
+          "login": "teacher",
+          "password": "demo"
+        }
+      ]
+    }
   },
   {
     "id": "MedMS",
@@ -912,6 +933,22 @@
           ]
         }
       ]
+    },
+    "demo": {
+      "name": "MedMS.org",
+      "url": "https://MedMS.org",
+      "accounts": [
+        {
+          "name": "Администратор",
+          "login": "admin",
+          "password": "demo"
+        },
+        {
+          "name": "Пациент",
+          "login": "patient",
+          "password": "demo"
+        }
+      ]
     }
   },
   {
@@ -1153,7 +1190,11 @@
         "version": "6.4",
         "icon": "/img/technologies/npm.svg"
       }
-    ]
+    ],
+    "demo": {
+      "name": "Dramka.site",
+      "url": "https://dramka.site"
+    }
   },
   {
     "id": "UniversalBot",
@@ -1251,6 +1292,10 @@
         "version": "7.32",
         "icon": "/img/technologies/eslint.svg"
       }
-    ]
+    ],
+    "demo": {
+      "name": "Profile.org",
+      "url": "https://profile.org"
+    }
   }
 ]

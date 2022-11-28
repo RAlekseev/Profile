@@ -1,5 +1,6 @@
 <template>
   <div>
+    <YandexMetrika/>
     <header>
       <nav>
         <a>
@@ -16,3 +17,13 @@
     </footer>
   </div>
 </template>
+
+<script>
+import YandexMetrika from '@/components/YandexMetrika'
+
+export default {
+  components: {
+    YandexMetrika
+  }
+}
+</script>
