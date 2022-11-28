@@ -4,7 +4,6 @@
     "description": "Автоматизированная система управления образовательным процессом",
     "image": "/img/projects/lms.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
         "src": "projects/LearnMS/admin_academic_calendar.webp",
@@ -561,14 +560,35 @@
         "link": "/materials/LearnMS/LearnMS Диплом_Презентация.pdf",
         "type": "Презентация"
       }
-    ]
+    ],
+    "demo": {
+      "name": "LearnMS.ru",
+      "url": "https://LearnMS.ru",
+      "accounts": [
+        {
+          "name": "Админ.",
+          "login": "admin",
+          "password": "demo"
+        },
+        {
+          "name": "Студент",
+          "login": "student",
+          "password": "demo"
+        },
+        {
+          "name": "Препод.",
+          "login": "teacher",
+          "password": "demo"
+        }
+      ]
+    }
   },
   {
     "id": "MedMS",
     "description": "Система управления медицинской организацией",
     "image": "img/projects/medms.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/MedMS",
     "images": [
       {
         "src": "projects/MedMS/admin_department_edit.webp",
@@ -912,6 +932,22 @@
           ]
         }
       ]
+    },
+    "demo": {
+      "name": "MedMS.org",
+      "url": "https://MedMS.org",
+      "accounts": [
+        {
+          "name": "Админ.",
+          "login": "admin",
+          "password": "demo"
+        },
+        {
+          "name": "Пациент",
+          "login": "patient",
+          "password": "demo"
+        }
+      ]
     }
   },
   {
@@ -919,7 +955,7 @@
     "description": "Система обработки изображений пользователей",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/ImgProcessing",
     "images": [
       {
         "src": "projects/ImgProcess/lab_1.webp",
@@ -1060,7 +1096,7 @@
     "description": "Парсер web-сайтов настраиваемый пользователями",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/WebParser",
     "images": [
       {
         "src": "projects/WebParser/parserCreate.webp",
@@ -1123,7 +1159,7 @@
     "description": "Карточная, сценарная Web игра",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/MyrsabekovaA/dramka_game",
     "images": [
       {
         "src": "projects/Dramka/home.webp",
@@ -1153,14 +1189,17 @@
         "version": "6.4",
         "icon": "/img/technologies/npm.svg"
       }
-    ]
+    ],
+    "demo": {
+      "name": "Dramka.site",
+      "url": "https://dramka.site"
+    }
   },
   {
     "id": "UniversalBot",
     "description": "Бот для Vk.com для различных целей",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
         "src": "projects/UniversalBot/logo.webp",
@@ -1211,7 +1250,7 @@
     "description": "Моя личная Web страница",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/Profile",
     "images": [
       {
         "src": "projects/Profile/profile.webp",
@@ -1251,6 +1290,10 @@
         "version": "7.32",
         "icon": "/img/technologies/eslint.svg"
       }
-    ]
+    ],
+    "demo": {
+      "name": "Profile.org",
+      "url": "https://profile.org"
+    }
   }
 ]

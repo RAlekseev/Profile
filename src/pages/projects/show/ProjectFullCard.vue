@@ -2,7 +2,12 @@
   <div>
     <div class="card">
       <div class="card__title">
-        <h3>{{ project.id }}</h3>
+        <h3>
+          {{ project.id }}
+<!--          <a v-if="project.github" :href="project.github" target="_blank">-->
+            <img v-if="project.github" @click="VisitGitHub()" src="/img/technologies/github.svg" alt="github" class="github">
+<!--          </a>-->
+        </h3>
         <p class="card__description">
           {{ project.description }}
         </p>
@@ -50,16 +55,23 @@ export default defineComponent({
     Slide,
     Navigation,
     Pagination
+  },
+  methods: {
+    VisitGitHub () {
+      window.open(this.project.github, '_blank')
+    }
   }
-  // methods: {
-  //   getImgUrl (pic: string) {
-  //     return require('@/assets/img/' + pic)
-  //   }
-  // }
 })
 </script>
 
 <style scoped>
+.github {
+  cursor: pointer;
+  vertical-align: top;
+  width: 1.5em;
+  height: 1.5em;
+}
+
 button {
   color: white;
   background: rgb(91, 179, 24);
