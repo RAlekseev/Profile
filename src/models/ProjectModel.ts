@@ -12,4 +12,5 @@ export default interface Project {
   statistic_cards: Array<Object>|null,
   full_description: string|null,
   materials: Array<Object>|null,
+  demo: Object|null,
 }

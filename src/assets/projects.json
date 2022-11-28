@@ -4,7 +4,6 @@
     "description": "Автоматизированная система управления образовательным процессом",
     "image": "/img/projects/lms.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
         "src": "projects/LearnMS/admin_academic_calendar.webp",
@@ -567,7 +566,7 @@
       "url": "https://LearnMS.ru",
       "accounts": [
         {
-          "name": "Администратор",
+          "name": "Админ.",
           "login": "admin",
           "password": "demo"
         },
@@ -577,7 +576,7 @@
           "password": "demo"
         },
         {
-          "name": "Преподаватель",
+          "name": "Препод.",
           "login": "teacher",
           "password": "demo"
         }
@@ -589,7 +588,7 @@
     "description": "Система управления медицинской организацией",
     "image": "img/projects/medms.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/MedMS",
     "images": [
       {
         "src": "projects/MedMS/admin_department_edit.webp",
@@ -939,7 +938,7 @@
       "url": "https://MedMS.org",
       "accounts": [
         {
-          "name": "Администратор",
+          "name": "Админ.",
           "login": "admin",
           "password": "demo"
         },
@@ -956,7 +955,7 @@
     "description": "Система обработки изображений пользователей",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/ImgProcessing",
     "images": [
       {
         "src": "projects/ImgProcess/lab_1.webp",
@@ -1097,7 +1096,7 @@
     "description": "Парсер web-сайтов настраиваемый пользователями",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/WebParser",
     "images": [
       {
         "src": "projects/WebParser/parserCreate.webp",
@@ -1160,7 +1159,7 @@
     "description": "Карточная, сценарная Web игра",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/MyrsabekovaA/dramka_game",
     "images": [
       {
         "src": "projects/Dramka/home.webp",
@@ -1201,7 +1200,6 @@
     "description": "Бот для Vk.com для различных целей",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
     "images": [
       {
         "src": "projects/UniversalBot/logo.webp",
@@ -1252,7 +1250,7 @@
     "description": "Моя личная Web страница",
     "image": "img/projects/LearnMS.png",
     "url": "https://lms.example.com",
-    "github": "https://lms.example.com/static/images/logo.png",
+    "github": "https://github.com/RAlekseev/Profile",
     "images": [
       {
         "src": "projects/Profile/profile.webp",

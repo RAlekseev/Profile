@@ -1,7 +1,7 @@
 <template>
   <main v-if="project">
     <ProjectFullCard :project="project">
-      <DemoTable/>
+      <DemoTable :project="project"/>
     </ProjectFullCard>
     <ShortStatistic v-if="project.statistic_cards" :cards="project.statistic_cards"/>
     <FeaturesTree v-if="project.features" :features="project.features"/>

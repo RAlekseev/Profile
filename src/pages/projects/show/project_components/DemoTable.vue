@@ -1,40 +1,48 @@
 <template>
   <div class="demo">
-    <a href="https://learnms.ru" target="_blank">
-      LearnMS.ru
-    </a>
-    <table>
+    <table v-if="project.demo">
       <thead>
       <tr>
-        <th>Пользователь</th>
+        <th colspan="3">
+          <a :href="project.demo.url" target="_blank">
+            <b>{{project.demo.name}}</b>
+          </a>
+        </th>
+      </tr>
+      <tr v-if="project.demo.accounts">
+        <th>User</th>
         <th>Логин</th>
         <th>Пароль</th>
       </tr>
       </thead>
-      <tbody>
-      <tr>
-        <td>Администратор</td>
-        <td>ar001</td>
-        <td>demo</td>
-      </tr>
-      <tr>
-        <td>Преподаватель</td>
-        <td>tk001</td>
-        <td>demo</td>
-      </tr>
-      <tr>
-        <td>Студент</td>
-        <td>st001</td>
-        <td>demo</td>
+      <tbody v-if="project.demo.accounts">
+      <tr v-for="account in project.demo.accounts" :key="account.name">
+        <td>{{ account.name }}</td>
+        <td>{{ account.login }}</td>
+        <td>{{ account.password }}</td>
       </tr>
       </tbody>
     </table>
   </div>
 </template>
 
+<script lang="ts">
+import { defineComponent } from 'vue'
+import ProjectModel from '@/models/ProjectModel'
+export default defineComponent({
+  name: 'DemoTable',
+  props: {
+    project: {
+      type: Object as () => ProjectModel,
+      required: true
+    }
+  }
+})
+</script>
+
 <style scoped>
 .demo {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .demo a {
