@@ -4,9 +4,7 @@
       <div class="card__title">
         <h3>
           {{ project.id }}
-<!--          <a v-if="project.github" :href="project.github" target="_blank">-->
-            <img v-if="project.github" @click="VisitGitHub()" src="/img/technologies/github.svg" alt="github" class="github">
-<!--          </a>-->
+          <img v-if="project.github" @click="VisitGitHub()" src="/img/technologies/github.svg" alt="github" class="github">
         </h3>
         <p class="card__description">
           {{ project.description }}
