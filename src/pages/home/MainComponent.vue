@@ -40,7 +40,7 @@
 
 .name img {
   width: 5em;
-  margin: 0 10px;
+  margin: 0 0.5em;
   transition: all 0.5s;
   background-color: white;
   border-radius: 50%;

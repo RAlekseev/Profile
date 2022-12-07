@@ -28,6 +28,10 @@ export default {
 </script>
 
 <style scoped>
+.main-container {
+  margin-bottom: 30px;
+}
+
 .title {
   display: flex;
   justify-content: center;

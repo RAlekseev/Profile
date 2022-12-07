@@ -120,6 +120,7 @@ img {
 
 .card__img {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .icons {
