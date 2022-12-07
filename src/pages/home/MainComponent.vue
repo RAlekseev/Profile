@@ -3,7 +3,18 @@
     <div class="name">
       <h1>Алексеев Роман</h1>
       <h2>Full-stack разработчик</h2>
-      <button>Связатся со мной</button>
+      <a href="https://hh.ru/resume/b0902d38ff0b7729da0039ed1f5866536d6a6c" target="_blank">
+        <img src="/img/technologies/hh.svg" alt="HeadHunter">
+      </a>
+      <a href="https://github.com/RAlekseev" target="_blank">
+        <img src="/img/technologies/github.svg" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/ralekseevm" target="_blank">
+        <img src="/img/technologies/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://www.facebook.com/ralekseevm" target="_blank">
+        <img src="/img/technologies/facebook.svg" alt="FaceBook">
+      </a>
       <blockquote>
         <p>«Каждый разработчик должен знать, как работает компьютер, потому что это помогает понять, как работает
           программное обеспечение»</p>
@@ -25,6 +36,18 @@
   padding: 30px 70px;
   border-radius: 50px;
   border: none;
+}
+
+.name img {
+  width: 5em;
+  margin: 0 0.5em;
+  transition: all 0.5s;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.name img:hover {
+  transform: scale(1.2);
 }
 
 blockquote {

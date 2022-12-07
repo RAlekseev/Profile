@@ -4,9 +4,7 @@
       <div class="card__title">
         <h3>
           {{ project.id }}
-<!--          <a v-if="project.github" :href="project.github" target="_blank">-->
-            <img v-if="project.github" @click="VisitGitHub()" src="/img/technologies/github.svg" alt="github" class="github">
-<!--          </a>-->
+          <img v-if="project.github" @click="VisitGitHub()" src="/img/technologies/github.svg" alt="github" class="github">
         </h3>
         <p class="card__description">
           {{ project.description }}
@@ -21,10 +19,10 @@
         </div>
         <slot></slot>
       </div>
-      <div class="card__img">
-        <Carousel :autoplay="3000" :wrap-around="true" :transition="1000">
+      <div class="card__img" v-viewer>
+        <Carousel :autoplay="5000" :wrap-around="true" :transition="500">
           <Slide v-for="image in project.images" :key="image.src">
-            <img :src="'/img/' + image.src" :alt="image.alt" loading="lazy">
+            <img :src="'/img/' + image.src" :alt="image.alt">
           </Slide>
           <template #addons>
             <Navigation/>
@@ -122,6 +120,7 @@ img {
 
 .card__img {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .icons {
@@ -136,6 +135,11 @@ img {
   width: 30px;
   height: 30px;
   margin: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.icon:hover {
+  transform: scale(1.5);
 }
 
 .carousel__pagination {

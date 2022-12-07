@@ -44,7 +44,7 @@ export default {
   text-align: center;
   font-weight: bold;
   border-radius: 30px;
-  margin: 10px;
+  margin: 30px 10px;
   overflow: hidden;
 }
 
